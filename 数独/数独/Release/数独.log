@@ -1,0 +1,109 @@
+﻿  EndPage.cpp
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(5,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(5,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(5,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(5,2): message : 尝试匹配参数列表“(int, int, const char [9])”时
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(8,2): error C2665: “drawtext”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(232,5): message : 可能是“int drawtext(TCHAR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(8,2): message : “int drawtext(TCHAR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(8,11): message : 没有使该转换得以执行的上下文
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(231,5): message : 或    “int drawtext(LPCTSTR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(8,2): message : “int drawtext(LPCTSTR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(8,11): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(8,2): message : 尝试匹配参数列表“(const char *, RECT *, int)”时
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(10,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(10,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(10,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(10,2): message : 尝试匹配参数列表“(int, int, const char [9])”时
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(21,2): error C2665: “drawtext”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(232,5): message : 可能是“int drawtext(TCHAR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(21,2): message : “int drawtext(TCHAR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(21,11): message : 没有使该转换得以执行的上下文
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(231,5): message : 或    “int drawtext(LPCTSTR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(21,2): message : “int drawtext(LPCTSTR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(21,11): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(21,2): message : 尝试匹配参数列表“(const char *, RECT *, int)”时
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(32,2): error C2665: “drawtext”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(232,5): message : 可能是“int drawtext(TCHAR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(32,2): message : “int drawtext(TCHAR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(32,11): message : 没有使该转换得以执行的上下文
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(231,5): message : 或    “int drawtext(LPCTSTR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(32,2): message : “int drawtext(LPCTSTR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(32,11): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\EndPage.cpp(32,2): message : 尝试匹配参数列表“(const char *, RECT *, int)”时
+  gameloop.cpp
+  main.cpp
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(15,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [20]”转换为“LPCWSTR”
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(15,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(15,2): message : 尝试匹配参数列表“(const char [20], nullptr, int, nullptr)”时
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(16,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [25]”转换为“LPCWSTR”
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(16,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(16,2): message : 尝试匹配参数列表“(const char [25], nullptr, int, nullptr)”时
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(43,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(43,16): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+F:\files-learning3\项目1-解数独\数独\数独\main.cpp(43,2): message : 尝试匹配参数列表“(const char [18], nullptr, int, nullptr)”时
+  menuPage.cpp
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(26,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(26,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(26,23): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(26,2): message : 尝试匹配参数列表“(int, int, const char [9])”时
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(36,2): error C2665: “drawtext”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(232,5): message : 可能是“int drawtext(TCHAR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(36,2): message : “int drawtext(TCHAR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(36,11): message : 没有使该转换得以执行的上下文
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(231,5): message : 或    “int drawtext(LPCTSTR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(36,2): message : “int drawtext(LPCTSTR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(36,11): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(36,2): message : 尝试匹配参数列表“(const char *, RECT *, int)”时
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(44,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(44,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(44,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(44,2): message : 尝试匹配参数列表“(int, int, const char [9])”时
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(58,2): error C2665: “drawtext”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(232,5): message : 可能是“int drawtext(TCHAR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(58,2): message : “int drawtext(TCHAR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(58,20): message : 没有使该转换得以执行的上下文
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(231,5): message : 或    “int drawtext(LPCTSTR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(58,2): message : “int drawtext(LPCTSTR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(58,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(58,2): message : 尝试匹配参数列表“(const char *, RECT *, int)”时
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(69,2): error C2665: “drawtext”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(232,5): message : 可能是“int drawtext(TCHAR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(69,2): message : “int drawtext(TCHAR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(69,22): message : 没有使该转换得以执行的上下文
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(231,5): message : 或    “int drawtext(LPCTSTR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(69,2): message : “int drawtext(LPCTSTR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(69,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(69,2): message : 尝试匹配参数列表“(const char *, RECT *, int)”时
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(79,2): error C2665: “drawtext”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(232,5): message : 可能是“int drawtext(TCHAR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(79,2): message : “int drawtext(TCHAR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(79,20): message : 没有使该转换得以执行的上下文
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(231,5): message : 或    “int drawtext(LPCTSTR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(79,2): message : “int drawtext(LPCTSTR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(79,20): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\menuPage.cpp(79,2): message : 尝试匹配参数列表“(const char *, RECT *, int)”时
+  Page.cpp
+  Solution.cpp
+  Sudoku.cpp
+  sudokuPage.cpp
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(44,2): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(249,6): message : 可能是“void settextstyle(int,int,LPCTSTR)”
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(44,2): message : “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const char [9]”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(44,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(44,2): message : 尝试匹配参数列表“(int, int, const char [9])”时
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(59,3): error C2665: “drawtext”: 没有重载函数可以转换所有参数类型
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(232,5): message : 可能是“int drawtext(TCHAR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(59,3): message : “int drawtext(TCHAR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“TCHAR”
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(59,19): message : 没有使该转换得以执行的上下文
+D:\VsStudeio\VsIDE\VC\Auxiliary\VS\include\easyx.h(231,5): message : 或    “int drawtext(LPCTSTR,RECT *,UINT)”
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(59,3): message : “int drawtext(LPCTSTR,RECT *,UINT)”: 无法将参数 1 从“const char *”转换为“LPCTSTR”
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(59,19): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+F:\files-learning3\项目1-解数独\数独\数独\sudokuPage.cpp(59,3): message : 尝试匹配参数列表“(const char *, RECT *, int)”时
