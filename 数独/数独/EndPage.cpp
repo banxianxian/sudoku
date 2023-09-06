@@ -4,7 +4,7 @@ void endPage::drawPage() {
 	settextcolor(RED);
 	settextstyle(100, 0, "微软雅黑");
 	const char* text1 = "回答正确";
-	RECT rect1 = { 300,100,700,250 };
+	RECT rect1 = { succUI[0].x,succUI[0].y,succUI[1].x,succUI[1].y };
 	drawtext(text1, &rect1, DT_CENTER);
 	//第一个按钮
 	settextstyle(25, 0, "微软雅黑");
@@ -16,8 +16,12 @@ void endPage::drawPage() {
 		settextcolor(BLACK);
 	}
 	const char* text2 = "退出";
-	RECT  rect2 = { 350,250,450,300 };
-	roundrect(350, 250, 450, 300, 15, 15);
+	RECT  rect2 = { bottomUI[QUIT][0].x,bottomUI[QUIT][0].y,
+		bottomUI[QUIT][1].x,bottomUI[QUIT][1].y };
+
+	roundrect(bottomUI[QUIT][0].x, bottomUI[QUIT][0].y, 
+		bottomUI[QUIT][1].x, bottomUI[QUIT][1].y, 15, 15);
+
 	drawtext(text2, &rect2, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 	//第二个按钮
 	if (isContinue) {
@@ -27,8 +31,12 @@ void endPage::drawPage() {
 		settextcolor(BLACK);
 	}
 	const char* text3 = "继续";
-	RECT rect3 = { 550,250,650,300 };
-	roundrect(550, 250, 650, 300, 15, 15);
+	RECT rect3 = { bottomUI[CONTINUE][0].x,bottomUI[CONTINUE][0].y,
+		bottomUI[CONTINUE][1].x,bottomUI[CONTINUE][1].y };
+
+	roundrect(bottomUI[CONTINUE][0].x, bottomUI[CONTINUE][0].y,
+		bottomUI[CONTINUE][1].x, bottomUI[CONTINUE][1].y, 15, 15);
+
 	drawtext(text3, &rect3, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 
 }
@@ -52,10 +60,12 @@ void endPage::controlPage(const ExMessage& msg) {
 		isExit = false;
 		isContinue = false;
 		
-		if (mouseX > 350 && mouseX < 450 && mouseY > 250 && mouseY < 300) {
+		if (mouseX > bottomUI[QUIT][0].x && mouseX < bottomUI[QUIT][1].x && 
+			mouseY > bottomUI[QUIT][0].y && mouseY < bottomUI[QUIT][1].y) {
 			isExit = true;
 		}
-		else if (mouseX > 550 && mouseX < 650  && mouseY > 250 && mouseY < 300) {
+		else if (mouseX > bottomUI[CONTINUE][0].x && mouseX < bottomUI[CONTINUE][1].x 
+			&& mouseY > bottomUI[CONTINUE][0].y && mouseY < bottomUI[CONTINUE][1].y) {
 			isContinue = true;
 		}
 		

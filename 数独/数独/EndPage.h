@@ -1,5 +1,6 @@
 #pragma once
 #include "Page.h"
+#include "simpleStruct.h"
 class endPage: public Page {
 public:
 
@@ -16,5 +17,7 @@ private:
 	bool isQuit;
 	bool isExit;
 	bool isContinue;
+	Coordinate bottomUI[2][2] = { {350,250,450,300} ,{550,250,650,300} };
+	Coordinate succUI[2] = { 300,100,700,250 };
 };
 
