@@ -23,6 +23,7 @@ void sudokuPage::drawPage() {
 	int bottomStart = 150;
 	for (int i = 0; i < 9; i++) {
 		for (int j = 0; j < 9; j++) {
+			settextcolor(BLACK);
 			int left = leftStart + i * 50;
 			int top = topStart + j * 50;
 			int right = rightStart + i * 50;
@@ -36,7 +37,14 @@ void sudokuPage::drawPage() {
 			else {
 				number = sudo.get_sudoku(i, j);
 			}
-			drawtext(number, &rect, DT_CENTER);
+			if (!sudo.isCanUse[i][j]) {
+				settextcolor(RGB(0, 191, 255));
+				drawtext(number, &rect, DT_CENTER);
+			}
+			else {
+				drawtext(number, &rect, DT_CENTER);
+			}
+			
 		}
 	}
 
@@ -47,6 +55,7 @@ void sudokuPage::drawPage() {
 	rightStart = 850;
 	bottomStart = 150;
 	for (int i = 0; i < 5; i++) {
+		settextcolor(BLACK);
 		int top = topStart + i * 100;
 		int bottom = bottomStart + i * 100;
 		roundrect(leftStart, top, rightStart, bottom, 15, 15);
@@ -58,16 +67,14 @@ void sudokuPage::drawPage() {
 		
 		drawtext(frame[i], &rect, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
 		
-		/*if (isCheck && isCheckFail) {
-			BeginBatchDraw();
+		if (isCheck && isCheckFail && status == CHECK_NUMBER) {
 			cout << "yes" << endl;
+			settextcolor(RED);
 			clearroundrect(750, 300, 850, 350, 15, 15);
 			RECT rect = { 750,300,850,350 };
 			drawtext("error", &rect, DT_CENTER | DT_VCENTER | DT_SINGLELINE);
-		}*/
-		
-		
-		settextcolor(BLACK);
+		}
+	
 	}
 
 }
@@ -103,7 +110,6 @@ void sudokuPage::updatePage() {
 		nextPage = 0;
 		isQuit = true;
 	}
-
 
 	status = 0;
 }

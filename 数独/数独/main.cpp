@@ -29,8 +29,7 @@ int main() {
 		sudo->print1();*/
 		//数独页面
 		unique_ptr<Page> sudoku = make_unique<sudokuPage>(menu->getLevel());
-		gameloop(sudoku.get(), 60);
-
+		gameloop(sudoku.get(), 5);
 		//结束页面
 		
 		if (sudoku->getNext()) {

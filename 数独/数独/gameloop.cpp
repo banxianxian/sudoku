@@ -14,13 +14,15 @@ void gameloop(Page* scene,int fps) {
 
 		cleardevice();
 		//绘图
+		//scene->updatePage();
 		scene->drawPage();
+
 		//更新数独数组
 		scene->updatePage();
 		FlushBatchDraw();
-		/*if (scene->isWait()) {
-			Sleep(1000);
-		}*/
+		//if (scene->isWait()) {
+		//	Sleep(1000);
+		//}
 		QueryPerformanceCounter(&endCount);
 		//elapse 单位为微秒
 		elapse = (endCount.QuadPart - startCount.QuadPart) * 1000000 / F.QuadPart;
